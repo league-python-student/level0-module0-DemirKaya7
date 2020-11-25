@@ -33,7 +33,9 @@ if __name__ == '__main__':
     else:
         score = score - 1
     # After all the questions have been asked, tell the user their final score
+    messagebox.showinfo(title="Score", message="Your score is: " + str(score))
 
     # remember to convert your variable to a string using the str() function 
     
     # Run the window's .mainloop() method
+    window.mainloop()
